@@ -1,3 +1,7 @@
+//Programm mis ütleb kas kliendil on piisavalt raha.
+// Iga korda kui käima paned tuleb uus klient uue rahakotiga.
+
+
 rahakott = Math.random()*50 //$
 tootehind = 25
 if (rahakott < tootehind){
