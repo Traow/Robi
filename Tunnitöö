@@ -5,7 +5,22 @@
 rahakott = Math.random()*50 //$
 tootehind = 25
 if (rahakott < tootehind){
-    console.log("Sul pole piisavalt raha, et seda osta")
+    console.log("Sul pole piisavalt raha, sul jäi puudu")
 }
-else console.log("Sul on piisavalt raha, et seda osta")
+else console.log("Sul on piisavalt raha, sul jäi üle")
 console.log(rahakott - tootehind)
+
+
+
+rahakott = Math.random()*50 //$
+tootehind = Math.random()*100 //$
+rahaarv = (rahakott - tootehind)
+if (rahakott > tootehind){
+    console.log("Sul on piisavalt raha, kas te olete nõus jätkama?")
+confirm("True or False!")
+}
+if (rahakott < tootehind)
+    console.log("Sul pole piisavalt raha, raha jääb puudu")
+console.log(rahakott - tootehind)
+   
+    
