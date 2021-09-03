@@ -1,0 +1,7 @@
+rahakott = Math.random()*50 //$
+tootehind = 25
+if (rahakott < tootehind){
+    console.log("Sul pole piisavalt raha, et seda osta")
+}
+else console.log("Sul on piisavalt raha, et seda osta")
+console.log(rahakott - tootehind)
