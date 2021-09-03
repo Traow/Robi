@@ -16,3 +16,4 @@ if (confirmAction==false){
 else if(confirmActio=confirm){
     alert("Te ostsite selle ja teie rahakotis on alles "+rahaarv+" € ")
 }
+alert("Külastage meid jälle!") // selle voib loppu juurde lisada aga vhpeal toob se mone vea sisse
