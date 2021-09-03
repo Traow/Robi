@@ -1,14 +1,18 @@
 rahakott = Math.random()*50 //$  // random rahakotti summa
-tootehind = Math.random()*75 //$ // random tootehinna summa
+tootehind = Math.random()*55 //$ // random tootehinna summa
 rahaarv = rahakott - tootehind //
 if (rahakott < tootehind){
-    alert("Sa ei saa seda osta, raha jääb puud")
+    alert("Te ei saa seda osta, raha jääb puudu "+rahaarv+" € " )
 }
 if (rahakott > tootehind){
-    confirmAction = confirm ("Kas te soovite seda osta")
+    confirmAction = confirm ("Kas te soovite seda osta see maksab kõigest "+tootehind+" € ")
+    
 }
 
+
 if (confirmAction==false){
-    console.log("Sa ei ostnud seda, sul on");
-    console.log(rahakott)
+    alert("Te ei ostnud midagi teie rahakotis on "+rahakott+" € alles")
+}
+else if(confirmActio=confirm){
+    alert("Te ostsite selle ja teie rahakotis on alles "+rahaarv+" € ")
 }
