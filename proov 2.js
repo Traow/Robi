@@ -6,14 +6,11 @@ if (rahakott < tootehind){
 }
 if (rahakott > tootehind){
     confirmAction = confirm ("Kas te soovite seda osta see maksab kõigest "+tootehind+" € ")
-    
-}
 
-
-if (confirmAction==false){
-    alert("Te ei ostnud midagi teie rahakotis on "+rahakott+" € alles")
+ if(confirmAction==false){
+     alert("Te ei ostnud seda, teil on alles"+rahaarv+" € ")
 }
-else if(confirmActio=confirm){
-    alert("Te ostsite selle ja teie rahakotis on alles "+rahaarv+" € ")
+else
+    alert("Te ostsite selle asja teil jäi üle " +rahaarv+" € ")
 }
-alert("Külastage meid jälle!") // selle voib loppu juurde lisada aga vhpeal toob se mone vea sisse
+alert("Aitäh, et külastasite meie poodi. Külastage meid jälle.")
