@@ -1,0 +1,48 @@
+string number boolean object tüüp type
+
+if else conditional
+
+
+// Object on tüüp mis salvestab key-value paare.
+// key:  value
+let töötaja = {
+   nimi: "Timo", // Kui koma ei ole tekib error
+   palk: 10,
+let töötaja2 = {
+   nimi: "Jaanus",
+   palk: 10,
+   maksaPalka: function () {
+    this.rahakott += this.palk
+    }
+   
+}
+
+console.log(töötaja2.nimi)
+console.log(töötaja2.rahakott)
+
+let muuda = "palk"
+töötaja2.palk += 5
+töötaja2.[muuda]
+
+function summa() {
+  console.log(7+5)
+}
+
+let summa = function () {
+
+}
+
+
+typeof summa // saad teada mis sorti info on uutuja sees.
+typeof akjsdhlakjsljha // Kui ei ole defineeritud siis sa saad undefined
+
+
+// primitive types:
+// number string boolean object function undefined null
+
+// user defined types:
+// Math
+
+
+
+
