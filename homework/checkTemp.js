@@ -9,8 +9,8 @@ GitHubi: homework/checkTemp.js
 function checkTemp () {
     let temp = Math.floor(Math.random ()*50);
     let tempcold = 0
-    let tempnoice = 21
-    let temphot = 41
+    let tempnoice = 20.9
+    let temphot = 40.9
     if (temp>temphot){
         alert("temperatuur on liiga kõrge " +temp + " C")
     }
