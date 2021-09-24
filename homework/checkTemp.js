@@ -6,24 +6,21 @@ Katlal on kolm temperatuurivahemikku
 GitHubi: homework/checkTemp.js
 */ 
 
-function checkTemp () {
-    let temp = Math.floor(Math.random ()*50);
+function checkTemp (temp) {
+    //let temp = Math.floor(Math.random ()*50);
     let tempcold = 0
     let tempnoice = 20.9
     let temphot = 40.9
     if (temp>temphot){
         alert("temperatuur on liiga kõrge " +temp + " C")
+        return 1
     }
     else if(temp>tempnoice){
         alert("Temperatuur on paras " +temp + " C°")
+        return 0
     }
     else if(temp>tempcold){
         alert("Temperatuur on liiga madal " +temp + " C°")
+        return -1
     }
 }
-    function kasKütta (temp){
-        return temp > 40
-    }
-function kasJahutada(temp) {
-        return temp > 40
-    }
