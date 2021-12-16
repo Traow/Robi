@@ -1,1 +1,4 @@
-SELECT group_id, COUNT(*) FROM Player GROUP BY group_id
+SELECT `Group`.name, COUNT(Group.id) AS Mangijad
+FROM Player, `Group`
+WHERE Player.group_id = `Group`.id
+GROUP BY `Group`.name
